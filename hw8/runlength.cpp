@@ -22,7 +22,8 @@ int main()
     {
       if (str[i] != str[j])
       {
-        if (i == 0){
+        if (i == 0)
+        {
           cout << "\'" << str[i] << "\'" <<
           " is the first to length "<< counter << endl;
         }
