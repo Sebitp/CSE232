@@ -12,8 +12,7 @@ bool AtListPosition(const string &list, const string &word, size_t pos) {
 
   if (pos + len >= list.size())  // check if its at last letter
   {
-    if (list.size() == word.size())  // if list and word same length
-    {
+    if (list.size() == word.size()) {
       if (list == word) {
         return true;
       } else {
@@ -84,10 +83,10 @@ size_t CountInList(const string &list, const string &word) {
 
   while (true) {
     temp = FindInList(list, word, temp);
-    if (temp == string::npos) {
+    if (temp == string::npos) {  // breaks when no more found
       break;
     }
-    temp++;
+    temp++; //start search from the previous loc
     counter++;
   }
   return counter;
@@ -104,5 +103,3 @@ int main() {
     cout << first << " " << w1_count << " " << w2_count << endl;
   }
 }
-
-// Use your function here to handle I/O
