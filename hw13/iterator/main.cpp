@@ -19,7 +19,7 @@ std::vector<int>::const_iterator FindSmallestIndexRange(const std::vector<int>& 
 
 int main(){
     std::vector<int> data1 = {6, 1, 5, 4, 3, 2, -1};
-    auto iter_smallest = FindSmallestIndexRange(data1, 2, 5);
+    auto iter_smallest = FindSmallestIndexRange(data1, 0, 5);
     std::cout << *iter_smallest << std::endl;
 
     std::vector<float> data = {5.6, 2.3, 12, 19};

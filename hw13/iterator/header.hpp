@@ -11,4 +11,4 @@ void DoubleIteratorRange(Iterator begin, Iterator end)
     for (auto iter = begin; iter != end; ++iter) {
         *iter *= 2;
     }
-};
+}
