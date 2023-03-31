@@ -1,1 +1,1 @@
-# CSE232 lab/hw/proj files kinda poggers
+# CSE232 lab/hw/proj files for Sebit. kinda poggers
