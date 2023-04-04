@@ -58,7 +58,7 @@ int main() {
   ostringstream output;
   map<string, string> replacements = {{"word", "Grouped-Letter-Uni t"},
                                       {"be", "wasp"},
-                                      {"not found", "not appearing"},
+                                      {"not found", "not appearing"}, 
                                       {"PlaCe", "LoCation"},
                                       {"other", "j"}};
   set<string> replaced_words = ReplacementCensor(input, output, replacements);
